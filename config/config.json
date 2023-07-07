@@ -1,0 +1,44 @@
+{
+  "rpi-pow-1": {
+    "device": "supplier",
+    "priority": 1,
+    "is_consumer": 0,
+    "power": 4000
+  },
+  "rpi-pow-2": {
+    "device": "rpi2",
+    "priority": 2,
+    "is_consumer": 1,
+    "power": 1000
+  },
+  "rpi-pow-3": {
+    "device": "rpi3",
+    "priority": 3,
+    "is_consumer": 1,
+    "power": 100
+  },
+  "rpi-pow-4-boiler": {
+    "device": "boiler",
+    "priority": 1,
+    "is_consumer": 1,
+    "power": 2000
+  },
+  "rpi-pow-5-washingmachine": {
+    "device": "washingmachine",
+    "priority": 3,
+    "is_consumer": 1,
+    "power": 1500
+  },
+  "rpi-pow-6-microwave":{
+    "device": "microwawe",
+    "priority": 3,
+    "is_consumer": 1,
+    "power": 800
+  },
+  "rpi-pow-7-fridge":{
+    "device": "fridge",
+    "priority": 2,
+    "is_consumer": 1,
+    "power": 350
+  }
+}
